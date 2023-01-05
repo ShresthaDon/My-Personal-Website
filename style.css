@@ -1,0 +1,491 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "pach";
+    src: url(./Oswald-Regular.ttf);
+}
+
+ /* headerselection */
+header{
+    position: relative;
+    padding: 30px 0px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px -10px pink;
+    z-index: 1;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    background: white;
+    color:  black ;
+    font-weight: 400px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: inline-block;
+}
+nav ul li:last-child a{
+    background: red;
+    color: wheat;
+    text-transform: uppercase;
+}
+.banner{
+    padding: 50px 15px;
+    background-color: lightpink;
+}
+.banner .banner-thumbnail img{
+    width: 100%;
+}
+.banner-content h4{
+    padding: 10px 0px;
+    color: red;
+}
+.banner-content h1{
+    font-size: 60px;
+    color: #000;
+    font-weight: 700;
+}
+.banner-content h1 span{
+    display: block;
+}
+.banner-content h1 span:last-child{
+    color: red;
+}
+.banner-content{
+    padding-top: 50px;
+}
+.banner-content p{
+    margin-top: 15px;
+    font-size: 15px;
+    color: black;
+}
+
+.banner-content a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: aquamarine;
+    border-radius: 15px;
+    background: red;
+
+}
+/* aboutmesection */
+.about-me{
+    padding: 80px 0px;
+    background: white;
+}
+
+.about-me-profile{
+    padding-right: 80px;
+    position: relative;
+}
+
+.profile-img img{
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px     rgb(81, 10, 10);
+}
+.circle-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    border: red dashed 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle-box span:first-child{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+.circle-box span:last-child{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-me-content h4{
+    color: red;
+    font-size: 27px;
+    font-weight: 600;
+}
+.about-me-content h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+.about-me-content h2 span{
+    display: block;
+}
+.about-me-content p{
+    color: #000;
+    font-size: 15px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.about-me-tabs {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about-me-tabs ul {
+    border-bottom: rgba(194, 120, 251, 1) solid 2px;
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: 0px;
+    width: 33.333333%;
+    text-align: center
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border: none;
+    display: inline-block;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(194, 120, 251, 1) 0%, rgba(249, 115, 255, 1) 100%);
+    color: white;
+    padding: 15px;
+    transition: all linear 0.3s;
+    font-family: 'Jost', sans-serif;
+}
+
+.nav-tabs>li>a {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    background: white;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 0px;
+    font-family: 'Jost', sans-serif;
+}
+
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+    border: none;
+    display: inline-block;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(194, 120, 251, 1) 0%, rgba(249, 115, 255, 1) 100%);
+    color: white;
+    transition: all linear 0.3s;
+
+}
+
+.tab-content span {
+    display: block;
+    color: #666;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    color: #f15151;
+}
+
+.tab-content label {
+    display: block;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+
+.tab-content .col-lg-6 {
+    margin-top: 15px;
+}
+
+
+.tab-content .skill h2 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+}
+
+.tab-content .skill h2 span {
+    font-size: 18px;
+    float: right;
+    display: inline;
+    font-weight: 500;
+    font-family: 'Jost', san;
+    color: #000;
+}
+
+.tab-content .skill .progressbar {
+    display: block;
+    margin: 0px;
+    border-bottom: #ccc solid 2px;
+
+}
+
+.tab-content .skill .progressbar .progress {
+    height: 10px;
+    border-radius: 30px;
+    background: white;
+    margin-bottom: 14px;
+}
+
+.tab-content .skill .progressbar .progress-bar {
+    height: 10px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(194, 120, 251, 1) 0%, rgba(249, 115, 255, 1) 100%);
+
+}
+
+
+
+/* ====== Achievement Section ======== */
+
+.achievement {
+    position: relative;
+    padding: 50px 0 40px;
+    background: url(./globle.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.achievement::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* right: 0;
+    bottom: 0; */
+    background: #5414ac;
+    opacity: 0.8;
+    z-index: -1;
+ 
+}
+/* . 
+  .achievement:hover::before{
+    width: 50%;
+}
+ */
+ 
+
+.achievement .number {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin-right: 15px;
+    font-family: 'Jost', sans-serif;
+}
+
+.achievement .col-lg-3 {
+    list-style: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.achievement .text {
+    font-family: 'Jost', sans-serif;
+
+}
+
+.achievement .text span {
+    display: block;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.achievement-container span:first-child{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+
+}
+
+.achievement-container span:last-child{
+    color: red;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+/* ======== Portfolio Section ========= */
+
+.portfolio {
+    padding: 80px 0px;
+    background: white;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio h4 {
+    color: #fb7878;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.portfolio span {
+    display: block;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 55px;
+    font-family: 'Jost', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    opacity: 0;
+    transition: all linear 0.3s;
+    padding: 50px;
+    font-family: 'Jost', sans-serif;
+}
+
+.portfolio-description::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    transition: all linear 0.3s;
+    z-index: -1;
+}
+
+.portfolio-description:hover {
+    opacity: 1;
+}
+
+.portfolio-description:hover::before {
+    width: 100%;
+}
+
+.portfolio-description span {
+    color: #ad4cc5;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+
+.portfolio-description h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.portfolio-description p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 15px 0;
+}
+
+.portfolio-description a {
+    color: #f15151;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-nav button.owl-prev {
+    left: 0;
+}
+
+.owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-dots button.owl-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #f15151;
+    opacity: 0.25;
+    margin: 0 3px;
+    transition: all linear 0.3s
+}
+
+.owl-dots button.owl-dot:hover {
+    opacity: 1;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #f15151;
+    height: 12px;
+    width: 12px;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.owl-nav span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
